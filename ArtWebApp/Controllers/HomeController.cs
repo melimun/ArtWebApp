@@ -6,26 +6,57 @@ namespace ArtWebApp.Controllers;
 
 public class HomeController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
-
-    public HomeController(ILogger<HomeController> logger)
-    {
-        _logger = logger;
-    }
-
+    //Main Home Page
     public IActionResult Index()
     {
         return View();
     }
 
-    public IActionResult Privacy()
+    //Login
+    [HttpGet]
+    public ViewResult Login()
+    {
+        return View();
+    }
+    [HttpPost]
+    public ViewResult Login(User user)
+    {
+        if (ModelState.IsValid)
+        {
+            //ToDo: Get Forum
+            // return View("Marketplace", user);
+            return View("Marketplace");
+        }
+        else
+        {
+            return View();
+        }
+    }
+
+    //Marketplace
+    [HttpGet]
+    public ViewResult Marketplace()
     {
         return View();
     }
 
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
+    //Marketplace
+    [HttpPost]
+    public ViewResult Marketplace(Profile profile)
     {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        if (ModelState.IsValid)
+        {
+            return View("Profile");
+        }
+        else
+        {
+            return View();
+        }
+    }
+
+    //Profile
+     public ViewResult Profile()
+    {
+        return View();
     }
 }
