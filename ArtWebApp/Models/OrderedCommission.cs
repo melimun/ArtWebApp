@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace ArtWebApp.Models
 {
-    public class OrderedCommission : Commission
+    public class OrderedCommission
     {
         private int orderId {get; set;}
 
@@ -14,6 +14,8 @@ namespace ArtWebApp.Models
         private String notes {get;set;}
 
         private User buyer {get;set;}
+
+        private Commission item {get; set;}
 
         
     }
