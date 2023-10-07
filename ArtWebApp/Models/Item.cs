@@ -9,13 +9,13 @@ namespace ArtWebApp.Models
     {
         private int itemId {get; set;}
 
-        private String name {get;set;}
+        private string name {get;set;}
 
-        private String description {get;set;}
+        private string description {get;set;}
 
-        private String condition {get;set;}
+        private string condition {get;set;}
 
-        private Bool isAvailable {get;set;}
+        private bool isAvailable {get;set;}
 
         private double price {get;set;}
 

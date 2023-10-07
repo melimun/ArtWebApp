@@ -9,13 +9,13 @@ namespace ArtWebApp.Models
     {
         public User user {get;}
         
-        private String location {get;set;}
+        private string location {get;set;}
         
-        private String feedback {get;set;}
+        private string feedback {get;set;}
 
-        private String payment {get;set;}
+        private string payment {get;set;}
 
-        private String status {get;set;}
+        private string status {get;set;}
 
        // public Item items[] {get;set;}
 
