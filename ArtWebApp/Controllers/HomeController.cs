@@ -18,6 +18,7 @@ public class HomeController : Controller
     {
         return View();
     }
+
     [HttpPost]
     public ViewResult Login(User user)
     {
@@ -56,6 +57,17 @@ public class HomeController : Controller
 
     //Profile
      public ViewResult Profile()
+    {
+        return View();
+    }
+
+     //Profile
+     public ViewResult ChatHub()
+    {
+        return View();
+    }
+
+    public ViewResult AddItem()
     {
         return View();
     }
