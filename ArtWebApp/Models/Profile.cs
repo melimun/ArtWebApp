@@ -11,6 +11,7 @@ namespace ArtWebApp.Models
         public string bio {get; set;}
         public string profileImage {get; set;}
         public string school {get; set;}
-
+        public string phoneNumber {get; set;}
+        public string birthday {get; set;}
     }
 }
