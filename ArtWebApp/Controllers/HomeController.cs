@@ -66,4 +66,9 @@ public class HomeController : Controller
     {
         return View();
     }
+
+    public ViewResult AddItem()
+    {
+        return View();
+    }
 }
