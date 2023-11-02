@@ -1,0 +1,31 @@
+@model ArtWebApp.Models.Commission
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+    <title>Ordered commissions</title>
+</head>
+
+<body>
+    <div class="panel panel-success">
+        <div class="panel-heading text-center"><h4>RSVP</h4></div>
+        <div class="panel-body">
+            @foreach (var orderedCommission where user is buyer)
+            {
+                <li>
+                    <li>@OrderedCommission.item.name</li>
+                    <li>@OrderedCommission.notes</li>
+                    <li>@OrderedCommission.status</li>
+
+                       
+                </li>
+            }
+        </body>
+
+</html>
