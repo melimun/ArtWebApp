@@ -4,16 +4,18 @@ using System.Linq;
 using System.Threading.Tasks;
 using ArtWebApp.Models;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
 
 
 namespace ArtWebApp.Models
 {
     public class User
     {
-        public int userId { get; }
-        public string username { get; set; }
-        public string passwordHash {get; private set;}
-        public string email { get; set; } 
+        public int UserId { get;set;}
+        public string Username { get; set; }
+        public string PasswordHash {get; private set;}
+        public string Email { get; set; } 
         // public Profile profile {get; set; } 
         // public bool isAuthenticated {get; private set;}
 
