@@ -71,4 +71,9 @@ public class HomeController : Controller
     {
         return View();
     }
+
+    public ViewResult ViewItems()
+    {
+        return View();
+    }
 }

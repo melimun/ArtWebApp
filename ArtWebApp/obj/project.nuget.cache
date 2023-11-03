@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1HZYbnCf9wSApgePsCjo1AwcI1gMyIfixHYF4+yWQiAdFBLNBlD5JrBcBSYWUDTZ9S+NMBcnrDLtUo0I9m2T7Q==",
+  "dgSpecHash": "GpmGbjZUpTHo/cDMSihfbAoAMzTfd+MnzzFwNlDXtcl3dUvKcD9nAy1WDsJs4KJkbConTExXB4r5TaJUiIWEYQ==",
   "success": true,
-  "projectFilePath": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/ArtWebApp.csproj",
+  "projectFilePath": "/Users/christian/ArtWebApp/ArtWebApp/ArtWebApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
