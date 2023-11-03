@@ -5,10 +5,10 @@ namespace ArtWebApp.Data
 {
     public class ArtContext : DbContext
     {
-        public ArtContext (DbContextOptions<ArtContext> options)
-            : base(options)
-        {
-        }
+        // public ArtContext (DbContextOptions<ArtContext> options)
+        //     : base(options)
+        // {
+        // }
 
         //Melissa's 
         public DbSet<User> Users{ get; set; }
@@ -22,5 +22,11 @@ namespace ArtWebApp.Data
             modelBuilder.Entity<Profile>().ToTable("Profile");
             modelBuilder.Entity<Message>().ToTable("Message");
         }
+
+        //     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        // {
+        //     base.OnConfiguring(optionsBuilder);
+        //     optionsBuilder.UseSqlite("Filename=CU.db");
+        // }
     }
 }
