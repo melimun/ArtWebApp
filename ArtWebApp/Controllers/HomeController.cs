@@ -1,11 +1,14 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using ArtWebApp.Models;
+using ArtWebApp.Data;
 
 namespace ArtWebApp.Controllers;
 
 public class HomeController : Controller
 {
+    private readonly ArtContext _context;
+
     //Main Home Page
     public IActionResult Index()
     {
@@ -59,6 +62,7 @@ public class HomeController : Controller
      public ViewResult Profile()
     {
         return View();
+        // return View();
     }
 
      //Profile
