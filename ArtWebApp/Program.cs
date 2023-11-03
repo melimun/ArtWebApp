@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Collections.Specialized;
 
 
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -19,18 +20,15 @@ builder.Services.AddDbContext<ArtContext>(options =>
 
 });
 
-//seed data
-// Build the service provider
-using var serviceProvider = builder.Services.BuildServiceProvider();
-
-// Get an instance of ArtContext from the service provider
-using var scope = serviceProvider.CreateScope();
-var context = scope.ServiceProvider.GetRequiredService<ArtContext>();
-
-// Initialize the database with seed data
-UserInitializer.Initialize(context);
-
 var app = builder.Build();
+
+//seed data
+using(var scope = app.Services.CreateScope())
+{
+    var context = scope.ServiceProvider.GetRequiredService<ArtContext>();
+    // use dbInitializer
+    UserInitializer.Initialize(context);
+}
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

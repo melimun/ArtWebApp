@@ -8,6 +8,8 @@ namespace ArtWebApp.Data
     {
         public static void Initialize(ArtContext context)
         {
+            context.Database.EnsureCreated();
+
             // Look for any Users
             if (context.Users.Any())
             {
