@@ -24,34 +24,34 @@
                             <div asp-validation-summary="All" class="text-danger"></div>
                             <div class="mb-3">
                                 <label asp-for="name" class="form-label">Item name:</label>
-                                <input type="text" class="form-control" id="name" name="name"
+                                <input asp-for="name" type="text" class="form-control" id="name" name="name"
                                     placeholder="Enter Item Name" required>
                             </div>
                             <div class="mb-3">
                                 <label asp-for="price" class="form-label">Price:</label>
-                                <input type="text" class="form-control" id="price" name="price"
+                                <input asp-for="price" type="text" class="form-control" id="price" name="price"
                                     placeholder="Enter Price" required>
                             </div>
                             <div class="mb-3">
                                 <label asp-for="description" class="form-label">Description:</label>
-                                <input type="text" class="form-control" id="description" name="description"
+                                <input asp-for="description" type="text" class="form-control" id="description" name="description"
                                     placeholder="Enter Description" required>
                             </div>
                             <div class="mb-3">
                                 <label asp-for="condition" class="form-label">Condition:</label>
-                                <input type="text" class="form-control" id="condition" name="condition"
+                                <input asp-for="condition" type="text" class="form-control" id="condition" name="condition"
                                     placeholder="Enter Condition" required>
                             </div>
                             <div class="mb-3">
                                 <label asp-for="shippingPrice" class="form-label">Shipping Price:</label>
-                                <input type="text" class="form-control" id="shipping" name="shipping"
+                                <input asp-for="shippingPrice" type="text" class="form-control" id="shipping" name="shipping"
                                     placeholder="Enter Shipping" required>
                             </div>
                             <div class="text-center">
 
                                 <div class="checkbox mb-3">
                                     <label>
-                                        <input type="checkbox" value="ia-available"> is-available
+                                        <input type="checkbox" asp-for="isAvailable"> is-available
                                     </label>
                                 </div>
 
