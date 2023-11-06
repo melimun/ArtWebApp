@@ -28,6 +28,7 @@
 /Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/obj/Debug/net7.0/ArtWebApp.pdb
 /Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/obj/Debug/net7.0/ArtWebApp.genruntimeconfig.cache
 /Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/obj/Debug/net7.0/ref/ArtWebApp.dll
+<<<<<<< HEAD
 /Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/bin/Debug/net7.0/Humanizer.dll
 /Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/bin/Debug/net7.0/Microsoft.Data.Sqlite.dll
 /Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
@@ -74,3 +75,36 @@
 /Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
 /Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/obj/Debug/net7.0/ArtWebApp.MvcApplicationPartsAssemblyInfo.cs
+=======
+/Users/christian/ArtWebApp/ArtWebApp/bin/Debug/net7.0/appsettings.Development.json
+/Users/christian/ArtWebApp/ArtWebApp/bin/Debug/net7.0/appsettings.json
+/Users/christian/ArtWebApp/ArtWebApp/bin/Debug/net7.0/ArtWebApp.staticwebassets.runtime.json
+/Users/christian/ArtWebApp/ArtWebApp/bin/Debug/net7.0/ArtWebApp
+/Users/christian/ArtWebApp/ArtWebApp/bin/Debug/net7.0/ArtWebApp.deps.json
+/Users/christian/ArtWebApp/ArtWebApp/bin/Debug/net7.0/ArtWebApp.runtimeconfig.json
+/Users/christian/ArtWebApp/ArtWebApp/bin/Debug/net7.0/ArtWebApp.dll
+/Users/christian/ArtWebApp/ArtWebApp/bin/Debug/net7.0/ArtWebApp.pdb
+/Users/christian/ArtWebApp/ArtWebApp/obj/Debug/net7.0/ArtWebApp.csproj.AssemblyReference.cache
+/Users/christian/ArtWebApp/ArtWebApp/obj/Debug/net7.0/ArtWebApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/christian/ArtWebApp/ArtWebApp/obj/Debug/net7.0/ArtWebApp.AssemblyInfoInputs.cache
+/Users/christian/ArtWebApp/ArtWebApp/obj/Debug/net7.0/ArtWebApp.AssemblyInfo.cs
+/Users/christian/ArtWebApp/ArtWebApp/obj/Debug/net7.0/ArtWebApp.csproj.CoreCompileInputs.cache
+/Users/christian/ArtWebApp/ArtWebApp/obj/Debug/net7.0/ArtWebApp.MvcApplicationPartsAssemblyInfo.cache
+/Users/christian/ArtWebApp/ArtWebApp/obj/Debug/net7.0/ArtWebApp.RazorAssemblyInfo.cache
+/Users/christian/ArtWebApp/ArtWebApp/obj/Debug/net7.0/ArtWebApp.RazorAssemblyInfo.cs
+/Users/christian/ArtWebApp/ArtWebApp/obj/Debug/net7.0/staticwebassets/msbuild.ArtWebApp.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/christian/ArtWebApp/ArtWebApp/obj/Debug/net7.0/staticwebassets/msbuild.build.ArtWebApp.props
+/Users/christian/ArtWebApp/ArtWebApp/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.ArtWebApp.props
+/Users/christian/ArtWebApp/ArtWebApp/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.ArtWebApp.props
+/Users/christian/ArtWebApp/ArtWebApp/obj/Debug/net7.0/staticwebassets.pack.json
+/Users/christian/ArtWebApp/ArtWebApp/obj/Debug/net7.0/staticwebassets.build.json
+/Users/christian/ArtWebApp/ArtWebApp/obj/Debug/net7.0/staticwebassets.development.json
+/Users/christian/ArtWebApp/ArtWebApp/obj/Debug/net7.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/christian/ArtWebApp/ArtWebApp/obj/Debug/net7.0/scopedcss/bundle/ArtWebApp.styles.css
+/Users/christian/ArtWebApp/ArtWebApp/obj/Debug/net7.0/scopedcss/projectbundle/ArtWebApp.bundle.scp.css
+/Users/christian/ArtWebApp/ArtWebApp/obj/Debug/net7.0/ArtWebApp.dll
+/Users/christian/ArtWebApp/ArtWebApp/obj/Debug/net7.0/refint/ArtWebApp.dll
+/Users/christian/ArtWebApp/ArtWebApp/obj/Debug/net7.0/ArtWebApp.pdb
+/Users/christian/ArtWebApp/ArtWebApp/obj/Debug/net7.0/ArtWebApp.genruntimeconfig.cache
+/Users/christian/ArtWebApp/ArtWebApp/obj/Debug/net7.0/ref/ArtWebApp.dll
+>>>>>>> c876cd6f76661791d033b2dcb8ced0be8488a980
