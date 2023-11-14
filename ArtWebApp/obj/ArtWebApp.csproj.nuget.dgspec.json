@@ -1,25 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "/Users/christian/ArtWebApp/ArtWebApp/ArtWebApp.csproj": {}
+    "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/ArtWebApp.csproj": {}
   },
   "projects": {
-    "/Users/christian/ArtWebApp/ArtWebApp/ArtWebApp.csproj": {
+    "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/ArtWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/christian/ArtWebApp/ArtWebApp/ArtWebApp.csproj",
+        "projectUniqueName": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/ArtWebApp.csproj",
         "projectName": "ArtWebApp",
-        "projectPath": "/Users/christian/ArtWebApp/ArtWebApp/ArtWebApp.csproj",
-        "packagesPath": "/Users/christian/.nuget/packages/",
-        "outputPath": "/Users/christian/ArtWebApp/ArtWebApp/obj/",
+        "projectPath": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/ArtWebApp.csproj",
+        "packagesPath": "/Users/eli/.nuget/packages/",
+        "outputPath": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/christian/.nuget/NuGet/NuGet.Config"
+          "/Users/eli/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -64,6 +65,12 @@
               "target": "Package",
               "version": "[1.1.6, )"
             },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
@@ -88,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
         }
       }
     }

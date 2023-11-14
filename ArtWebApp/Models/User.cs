@@ -12,9 +12,18 @@ namespace ArtWebApp.Models
 {
     public class User
     { 
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int UserId { get;set;}
+
+        [Required(ErrorMessage = "Username is required")]
         public string Username { get; set; }
+        
+        [Required(ErrorMessage = "Password is required")]
         public string PasswordHash {get; set;}
+
+        [Required(ErrorMessage = "Email is required")]
+        [EmailAddress(ErrorMessage = "Invalid Email Address")]
         public string Email { get; set; } 
         // public Profile profile {get; set; } 
         // public bool isAuthenticated {get; private set;}

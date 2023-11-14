@@ -1,7 +1,6 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "RJ8hS3N4TIIT+W3WZdpPoM14RsaFwji3oAcxVImx9MefozO/XYt7qk2mWkMtIWgkdR7qnHZbkOVOpsLKuuvOwA==",
+  "dgSpecHash": "uN0JPGCNqSVUfwtNO1BhfBatPgcMW6QJD3YS6Fm466p8XVhe5hXCgMSt1mj3F/O252gbddQnl4hbO3xhyjH70w==",
   "success": true,
   "projectFilePath": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/ArtWebApp.csproj",
   "expectedPackageFiles": [
@@ -18,6 +17,7 @@
     "/Users/eli/.nuget/packages/microsoft.entityframeworkcore.sqlite/1.1.6/microsoft.entityframeworkcore.sqlite.1.1.6.nupkg.sha512",
     "/Users/eli/.nuget/packages/microsoft.entityframeworkcore.sqlite.core/7.0.13/microsoft.entityframeworkcore.sqlite.core.7.0.13.nupkg.sha512",
     "/Users/eli/.nuget/packages/microsoft.entityframeworkcore.sqlite.design/1.1.6/microsoft.entityframeworkcore.sqlite.design.1.1.6.nupkg.sha512",
+    "/Users/eli/.nuget/packages/microsoft.entityframeworkcore.tools/7.0.13/microsoft.entityframeworkcore.tools.7.0.13.nupkg.sha512",
     "/Users/eli/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/Users/eli/.nuget/packages/microsoft.extensions.caching.abstractions/7.0.0/microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "/Users/eli/.nuget/packages/microsoft.extensions.caching.memory/7.0.0/microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
@@ -117,11 +117,5 @@
     "/Users/eli/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
     "/Users/eli/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
-=======
-  "dgSpecHash": "GpmGbjZUpTHo/cDMSihfbAoAMzTfd+MnzzFwNlDXtcl3dUvKcD9nAy1WDsJs4KJkbConTExXB4r5TaJUiIWEYQ==",
-  "success": true,
-  "projectFilePath": "/Users/christian/ArtWebApp/ArtWebApp/ArtWebApp.csproj",
-  "expectedPackageFiles": [],
->>>>>>> c876cd6f76661791d033b2dcb8ced0be8488a980
   "logs": []
 }
