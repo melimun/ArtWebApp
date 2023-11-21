@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+//Matthew Goehner
 
 namespace ArtWebApp.Models
 {
@@ -15,7 +16,7 @@ namespace ArtWebApp.Models
 
         private User buyer {get;set;}
 
-        private Commission item {get; set;}
+        private BaseCommission item {get; set;}
 
         
     }

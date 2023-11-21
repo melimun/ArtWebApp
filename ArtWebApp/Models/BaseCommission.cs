@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
+//Matthew Goehner
 
 namespace ArtWebApp.Models
 {
-    public class Commission
+    public class BaseCommission
     {
         public int id {get; set;}
-        public User artist {get; set;}        
+        public int artistId {get; set;}        
 
         [Required(ErrorMessage = "Please enter the name")]
         public string name {get; set;}
