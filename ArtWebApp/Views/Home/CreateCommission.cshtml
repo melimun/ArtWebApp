@@ -37,6 +37,34 @@
                 </div>
 
             }
+                    <div class="card-body">
+                        <form asp-action="CreateCommission" method="post">
+                            <div asp-validation-summary="All" class="text-danger"></div>
+                            <div class="mb-3">
+                                <label for="Username" class="form-label">Username:</label>
+                                <input type="text" class="form-control" id="name" name="name"
+                                    placeholder="Enter Commission Name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="PasswordHash" class="form-label">Password:</label>
+                                <input type="password" class="form-control" id="PasswordHash" name="PasswordHash"
+                                    placeholder="Enter your password" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="Email" class="form-label">Email:</label>
+                                <input type="email" class="form-control" id="Email" name="Email"
+                                    placeholder="Enter your email" required>
+                            </div>
+                            <div class="text-center">
+                                Have an account?
+                                <a asp-action="Login">Login.</a>
+                            </div>
+                            <div class="text-center">
+                                <button class="btn btn-primary" type="submit">Register</button>
+                            </div>
+                        </form>
+
+
 </body>
 
 </html>

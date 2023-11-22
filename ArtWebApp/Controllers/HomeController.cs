@@ -1,12 +1,18 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using ArtWebApp.Models;
+using ArtWebApp.Data;
 
 namespace ArtWebApp.Controllers;
 
 public class HomeController : Controller
 {
     //Main Home Page
+    private readonly CommissionContext _context;
+    public HomeController(CommissionContext context)
+    {
+        _context = context;
+    }
     public IActionResult Index()
     {
         return View();
@@ -58,5 +64,27 @@ public class HomeController : Controller
      public ViewResult Profile()
     {
         return View();
+    }
+
+    [HttpGet]
+    public IActionResult CreateCommision()
+    {
+        return View();
+    }
+
+    [HttpPost]
+    public IActionResult CreateCommission(Commission commission)
+    {
+        if (ModelState.IsValid)
+        {
+            _context.Commissions.Add(commission);
+            _context.SaveChanges();
+
+            return RedirectToAction("Login");
+        }
+        else
+        {
+            return View();
+        }
     }
 }
