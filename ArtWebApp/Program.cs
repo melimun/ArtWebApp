@@ -17,6 +17,9 @@ builder.Services.AddEntityFrameworkSqlite().AddDbContext<ArtContext>();
 // database
 string connString = builder.Configuration.GetConnectionString("ArtContext");
 
+builder.Services.AddSession(); // Add session support
+builder.Services.AddControllersWithViews(); // Add MVC services
+
 builder.Services.AddDbContext<ArtContext>(options =>
 {
     options.UseSqlite(connString);
@@ -40,6 +43,16 @@ if (!app.Environment.IsDevelopment())
     // app.UseSwaggerUI();
     app.UseExceptionHandler("/Home/Error");
 }
+
+app.UseSession(); // Use session
+
+    app.UseRouting();
+    app.UseEndpoints(endpoints =>
+    {
+        endpoints.MapControllerRoute(
+            name: "default",
+            pattern: "{controller=Home}/{action=Index}/{id?}");
+    });
 app.UseStaticFiles();
 
 app.UseRouting();

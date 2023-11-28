@@ -62,25 +62,25 @@ namespace ArtWebApp.Data
             context.Profiles.AddRange(profiles);
             context.SaveChanges();
 
-            var messages = new Message[]
-            {
-                new Message{
-                    MessageId = 1,
-                    UserId = 1050,
-                    receiver = 1051,
-                    message = "Hey! How are you doing?"
-                },
+            // var messages = new Message[]
+            // {
+            //     new Message{
+            //         MessageId = 1,
+            //         UserId = 1050,
+            //         receiver = 1051,
+            //         message = "Hey! How are you doing?"
+            //     },
 
-                new Message{
-                    MessageId = 2,
-                    UserId = 1051,
-                    receiver = 1050,
-                    message = "I'm doing good!"
-                }
-            };
+            //     new Message{
+            //         MessageId = 2,
+            //         UserId = 1051,
+            //         receiver = 1050,
+            //         message = "I'm doing good!"
+            //     }
+            // };
 
-            context.Messages.AddRange(messages);
-            context.SaveChanges();
+            // context.Messages.AddRange(messages);
+            // context.SaveChanges();
         }
     }
 }

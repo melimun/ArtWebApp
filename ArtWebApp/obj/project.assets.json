@@ -6375,24 +6375,25 @@
     ]
   },
   "packageFolders": {
-    "/Users/christian/.nuget/packages/": {}
+    "/Users/eli/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/christian/ArtWebApp/ArtWebApp/ArtWebApp.csproj",
+      "projectUniqueName": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/ArtWebApp.csproj",
       "projectName": "ArtWebApp",
-      "projectPath": "/Users/christian/ArtWebApp/ArtWebApp/ArtWebApp.csproj",
-      "packagesPath": "/Users/christian/.nuget/packages/",
-      "outputPath": "/Users/christian/ArtWebApp/ArtWebApp/obj/",
+      "projectPath": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/ArtWebApp.csproj",
+      "packagesPath": "/Users/eli/.nuget/packages/",
+      "outputPath": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/christian/.nuget/NuGet/NuGet.Config"
+        "/Users/eli/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -6461,8 +6462,16 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file /Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

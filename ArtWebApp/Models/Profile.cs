@@ -11,12 +11,17 @@ namespace ArtWebApp.Models
 {
     public class Profile
     {
+        public byte[]? ProfileImageData { get; set; }
         public int ProfileID { get; set; }
+        [ForeignKey("User")]
         public int UserID {get; set;}
         public string Bio {get; set;}
-        public string ProfileImage {get; set;}
+
+        [DataType(DataType.Upload)]
+        public string? ProfileImage {get; set;}
         public string School {get; set;}
         public string PhoneNumber {get; set;}
         public string Birthday {get; set;}
+        public User? User { get; set; }
     }
 }
