@@ -4,25 +4,35 @@ using System.Linq;
 using System.Threading.Tasks;
 using ArtWebApp.Models;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
 
 
 namespace ArtWebApp.Models
 {
     public class User
     {
-        public int userId { get; }
-        public string username { get; set; }
-        public string passwordHash {get; private set;}
-        public string email { get; set; } 
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int UserId { get; set; }
+
+        [Required(ErrorMessage = "Username is required")]
+        public string Username { get; set; }
+
+        [Required(ErrorMessage = "Password is required")]
+        public string PasswordHash { get; set; }
+
+        [Required(ErrorMessage = "Email is required")]
+        [EmailAddress(ErrorMessage = "Invalid Email Address")]
+        public string Email { get; set; }
         // public Profile profile {get; set; } 
         // public bool isAuthenticated {get; private set;}
 
-        // public User(){
-        //     userId = 0;
-        //     username = "username";
-        //     passwordHash = "password";
-        //     email = "username@email.com";
-        //     isAuthenticated = true;
-        // }
+        // Navigation property to link User and Profile
+        //  public int? ProfileID { get; set; }
+
+        // Navigation property to link User and Profile
+        public int? ProfileID { get; set; }
+        public Profile? Profile { get; set; }
     }
 }

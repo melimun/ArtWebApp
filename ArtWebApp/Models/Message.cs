@@ -2,17 +2,20 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
+
 
 namespace ArtWebApp.Models
 {
     public class Message
     {
-        public int messageId {get;}
+        public int MessageId {get;set;}
 
-        public User sender {get;set;}
+        public int UserId {get;set;}
 
-        public User receiver {get;set;}
+        public int receiver {get;set;} //also a userId
 
-        public string message {get;private set;}        
+        public string message {get;set;}        
     }
 }

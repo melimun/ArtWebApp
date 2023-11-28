@@ -7,7 +7,7 @@ namespace ArtWebApp.Models
 {
     public class Seller
     {
-        public User user {get;}
+        public User user {get;set;}
         
         private string location {get;set;}
         

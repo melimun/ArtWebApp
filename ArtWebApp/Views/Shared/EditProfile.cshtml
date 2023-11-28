@@ -1,0 +1,94 @@
+@model ArtWebApp.Models.Profile
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <title>Register</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">ArtWebApp</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    </nav>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="text-center">Edit Profile</h4>
+                    </div>
+                    <div class="card-body">
+                        <form asp-action="EditProfile" method="post" enctype="multipart/form-data">
+                            <div asp-validation-summary="All" class="text-danger"></div>
+
+                            <!-- Profile Image -->
+                            <div class="mb-3">
+        <label for="ProfileImage" class="form-label">Profile Image:</label>
+        <input type="file" class="form-control" id="ProfileImage" name="ProfileImage">
+    </div>
+
+
+                            <!-- Bio -->
+                            <div class="mb-3">
+                                <label for="Bio" class="form-label">Bio:</label>
+                                <textarea class="form-control" id="Bio" name="Bio" placeholder="Enter your bio"
+                                    required>@Model.Bio</textarea>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="School" class="form-label">School:</label>
+                                <input type="text" class="form-control" id="School" name="School" value="@Model.School"
+                                    placeholder="Enter your school" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="Birthday" class="form-label">Birthday:</label>
+                                <input type="date" class="form-control" id="Birthday" name="Birthday"
+                                    value="@Model.Birthday" placeholder="Enter your birthday" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="PhoneNumber" class="form-label">Phone Number:</label>
+                                <input type="tel" class="form-control" id="PhoneNumber" name="PhoneNumber"
+                                    value="@Model.PhoneNumber" placeholder="Enter your Phone Number"
+                                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Phone number format: XXX-XXX-XXXX"
+                                    required>
+                            </div>
+
+                            <div class="text-center">
+                                @* <a asp-action="Profile">Save Changes.</a> *@
+
+@using (Html.BeginForm("EditProfile", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.HiddenFor(model => model.UserID) <!-- Add this hidden field for userId -->
+    <!-- Other input fields for profile editing -->
+
+                                <button class="btn btn-primary" type="submit">Save Changes</button>
+}
+
+                                <a asp-action="Profile" class="btn btn-secondary">Cancel</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
