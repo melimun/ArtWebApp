@@ -14,10 +14,11 @@ namespace ArtWebApp.Controllers
     public class HomeController : Controller
     {
         private readonly ArtContext _context;
-
-        public HomeController(ArtContext context)
+        private readonly CommissionContext _cContext;
+        public HomeController(CommissionContext cContext, ArtContext context)
         {
             _context = context;
+            _cContext = cContext;
         }
 
         // Main Home Page
@@ -34,33 +35,33 @@ namespace ArtWebApp.Controllers
         }
 
         [HttpPost]
-public IActionResult Login(User user)
-{
-    try
-    {
-        var existingUser = _context.Users.FirstOrDefault(u => u.Username == user.Username && u.PasswordHash == user.PasswordHash);
+        public IActionResult Login(User user)
+        {
+            try
+            {
+                var existingUser = _context.Users.FirstOrDefault(u => u.Username == user.Username && u.PasswordHash == user.PasswordHash);
 
-        if (existingUser != null)
-        {
-            // Authentication successful
-            HttpContext.Session.SetInt32("UserId", existingUser.UserId); // Set the session ID
-            return RedirectToAction("Profile");
+                if (existingUser != null)
+                {
+                    // Authentication successful
+                    HttpContext.Session.SetInt32("UserId", existingUser.UserId); // Set the session ID
+                    return RedirectToAction("Profile");
+                }
+                else
+                {
+                    // Authentication failed
+                    ModelState.AddModelError(string.Empty, "Invalid login attempt");
+                    return View();
+                }
+            }
+            catch (Exception ex)
+            {
+                // Log the exception for debugging purposes
+                Console.WriteLine($"Exception during login: {ex.Message}");
+                ModelState.AddModelError(string.Empty, "Error during login. Please try again.");
+                return View();
+            }
         }
-        else
-        {
-            // Authentication failed
-            ModelState.AddModelError(string.Empty, "Invalid login attempt");
-            return View();
-        }
-    }
-    catch (Exception ex)
-    {
-        // Log the exception for debugging purposes
-        Console.WriteLine($"Exception during login: {ex.Message}");
-        ModelState.AddModelError(string.Empty, "Error during login. Please try again.");
-        return View();
-    }
-}
 
 
         // Registration
@@ -118,42 +119,30 @@ public IActionResult Login(User user)
             }
         }
 
-
-
         // Profile
         // Profile
-// Remove the [Authorize] attribute to allow access without authentication
-public IActionResult Profile()
-{
-    // Retrieve the user ID from session or cookie
-    int? userId = HttpContext.Session.GetInt32("UserId");
-
-    if (userId != null)
-    {
-        var userProfile = _context.Profiles
-            .Include(p => p.User)
-            .FirstOrDefault(p => p.UserID == userId);
-
-        if (userProfile != null)
+    // Remove the [Authorize] attribute to allow access without authentication
+        public IActionResult Profile()
         {
-            Console.WriteLine($"User Profile: {userProfile.UserID}, {userProfile.Bio}, {userProfile.School}, {userProfile.PhoneNumber}");
+        // Retrieve the user ID from session or cookie
+        int? userId = HttpContext.Session.GetInt32("UserId");
 
-            return View(userProfile); // Pass the userProfile object to the view
+        if (userId != null)
+        {
+            var userProfile = _context.Profiles
+                .Include(p => p.User)
+                .FirstOrDefault(p => p.UserID == userId);
+
+            if (userProfile != null)
+            {
+                Console.WriteLine($"User Profile: {userProfile.UserID}, {userProfile.Bio}, {userProfile.School}, {userProfile.PhoneNumber}");
+
+                return View(userProfile); // Pass the userProfile object to the view
+            }
         }
-    }
-
-    // If the user ID is not found or the profile doesn't exist, handle it accordingly
-    return RedirectToAction("Login");
-}
-
-
-
-
-
-
-
-
-
+        // If the user ID is not found or the profile doesn't exist, handle it accordingly
+        return RedirectToAction("Login");
+        }
 
 
         [HttpGet]
@@ -211,28 +200,26 @@ public IActionResult Profile()
             return View("EditProfile", profile);
         }
 
-
-
-    //Marketplace
-    [HttpGet]
-    public ViewResult Marketplace()
-    {
-        return View();
-    }
-
-    //Marketplace
-    [HttpPost]
-    public ViewResult Marketplace(int userId)
-    {
-        if (ModelState.IsValid)
-        {
-            return View("Marketplace");
-        }
-        else
+        //Marketplace
+        [HttpGet]
+        public ViewResult Marketplace()
         {
             return View();
         }
-    }
+
+        //Marketplace
+        [HttpPost]
+        public ViewResult Marketplace(int userId)
+        {
+            if (ModelState.IsValid)
+            {
+                return View("Marketplace");
+            }
+            else
+            {
+                return View();
+            }
+        }
 
 
         public ViewResult AddItem()
@@ -244,5 +231,68 @@ public IActionResult Profile()
         {
             return View();
         }
+
+        [HttpGet]
+        public IActionResult CreateCommission()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult CreateCommission(Commission commission)
+        {
+            if (ModelState.IsValid)
+            {   
+                commission.userId=HttpContext.Session.GetInt32("UserId");
+                _cContext.Commissions.Add(commission);
+                _cContext.SaveChanges();
+
+                return RedirectToAction("Marketplace");
+            }
+            else
+            {
+                return View();
+            }
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> OrderedCommissions()
+        {
+            var commissionViewModel= new CommissionViewModel();
+            commissionViewModel.userId=HttpContext.Session.GetInt32("UserId");
+            commissionViewModel.orderedCommissions=_cContext.OrderedCommissions.ToList();
+            commissionViewModel.commissions=_cContext.Commissions.ToList();
+            Console.WriteLine($"User id: {commissionViewModel.userId}, {commissionViewModel.orderedCommissions.Count}");
+
+            return View(commissionViewModel);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> UserCommissions()
+        {
+            var commissionViewModel= new CommissionViewModel();
+            commissionViewModel.userId=HttpContext.Session.GetInt32("UserId");
+            commissionViewModel.orderedCommissions=_cContext.OrderedCommissions.ToList();
+            commissionViewModel.commissions=_cContext.Commissions.ToList();
+            Console.WriteLine($"User id: {commissionViewModel.userId}, {commissionViewModel.orderedCommissions.Count}");
+
+            return View(commissionViewModel);
+        }
+
+        [HttpPost]
+        public IActionResult UpdateStatus(int orderId, string status)
+        {
+            var orderedCommission = _cContext.OrderedCommissions.FirstOrDefault(o => o.orderId == orderId);
+            if (orderedCommission != null)
+            {
+                orderedCommission.status = status;
+                _cContext.Update(orderedCommission);
+                _cContext.SaveChanges();
+            }
+
+            return RedirectToAction("userCommissions");
+        }
+
     }
+    
 }

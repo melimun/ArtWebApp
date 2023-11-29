@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace ArtWebApp.Migrations
+namespace ArtWebApp.Migrations.Art
 {
     /// <inheritdoc />
     public partial class InitialCreate : Migration

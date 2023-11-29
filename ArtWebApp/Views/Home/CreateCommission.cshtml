@@ -1,0 +1,47 @@
+@model ArtWebApp.Models.Commission
+@{
+  Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <title>Create Commission</title>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="panel-heading text-center"><h4>Create Commission</h4></div>
+        <div class="panel-body">
+            @using (Html.BeginForm(FormMethod.Post))
+            {
+                @Html.ValidationSummary()
+                <div class="form-group">
+                    <label>Commission Name:</label>
+                    @Html.TextBoxFor(x => x.name, new { @class = "formcontrol" })
+                </div>
+                <div class="form-group">
+                    <label>Commission Description:</label>
+                    @Html.TextBoxFor(x => x.description, new { @class = "formcontrol" })
+                </div>
+                <div class="form-group">
+                    <label>Commission Price:</label>
+                    @Html.TextBoxFor(x => x.price, new { @class = "formcontrol" })
+                </div>
+
+                <div class="text-center">
+                    <input class="btn btn-success" type="submit" name="Enter"/>
+                </div>
+
+            }
+        </div>
+    </div>
+    
+
+</body>
+
+</html>

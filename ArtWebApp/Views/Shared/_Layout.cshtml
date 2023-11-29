@@ -1,5 +1,4 @@
-﻿@model ArtWebApp.Models.Profile
-
+﻿
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,6 +30,19 @@
                             @* Fix this to only show if user is authenticated *@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Profile">Profile</a>
                         </li>
+                        <li class ="nav-item">
+                            @* Fix this to only show if user is authenticated *@
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="CreateCommission">Create Commission</a>
+                        </li>
+                        <li class ="nav-item">
+                            @* Fix this to only show if user is authenticated *@
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="UserCommissions">Your Commissions</a>
+                        </li>
+                        <li class ="nav-item">
+                            @* Fix this to only show if user is authenticated *@
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="OrderedCommissions">Ordered Commissions</a>
+                        </li>
+
                     </ul>
                 </div>
             </div>

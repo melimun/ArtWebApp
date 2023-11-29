@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace ArtWebApp.Migrations
+namespace ArtWebApp.Migrations.Art
 {
     [DbContext(typeof(ArtContext))]
     partial class ArtContextModelSnapshot : ModelSnapshot
