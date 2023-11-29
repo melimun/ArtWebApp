@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ArtWebApp.Migrations
 {
     [DbContext(typeof(ArtContext))]
-    [Migration("20231128232956_InitialCreate")]
+    [Migration("20231129001411_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
