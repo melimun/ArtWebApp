@@ -67,7 +67,7 @@ public class HomeController : Controller
     }
 
     [HttpGet]
-    public IActionResult CreateCommision()
+    public IActionResult CreateCommission()
     {
         return View();
     }
@@ -87,4 +87,11 @@ public class HomeController : Controller
             return View();
         }
     }
+
+    [HttpGet]
+    public async Task<IActionResult> OrderedCommission()
+    {
+        return View(_context.Commissions.ToList());
+    }
+
 }

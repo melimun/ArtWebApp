@@ -7,28 +7,29 @@
 <html>
 
 <head>
-    <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
-    <title>Create commission</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <title>Create Commission</title>
 </head>
 
 <body>
-    <div class="panel panel-success">
-        <div class="panel-heading text-center"><h4>RSVP</h4></div>
+    <div class="container mt-5">
+        <div class="panel-heading text-center"><h4>Create Commission</h4></div>
         <div class="panel-body">
             @using (Html.BeginForm(FormMethod.Post))
             {
                 @Html.ValidationSummary()
                 <div class="form-group">
-                    <label>Your name:</label>
+                    <label>Commission Name:</label>
                     @Html.TextBoxFor(x => x.name, new { @class = "formcontrol" })
                 </div>
                 <div class="form-group">
-                    <label>Your email:</label>
+                    <label>Comminssion Description:</label>
                     @Html.TextBoxFor(x => x.description, new { @class = "formcontrol" })
                 </div>
                 <div class="form-group">
-                    <label>Price:</label>
+                    <label>Commission Price:</label>
                     @Html.TextBoxFor(x => x.price, new { @class = "formcontrol" })
                 </div>
 
@@ -37,33 +38,9 @@
                 </div>
 
             }
-                    <div class="card-body">
-                        <form asp-action="CreateCommission" method="post">
-                            <div asp-validation-summary="All" class="text-danger"></div>
-                            <div class="mb-3">
-                                <label for="Username" class="form-label">Username:</label>
-                                <input type="text" class="form-control" id="name" name="name"
-                                    placeholder="Enter Commission Name" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="PasswordHash" class="form-label">Password:</label>
-                                <input type="password" class="form-control" id="PasswordHash" name="PasswordHash"
-                                    placeholder="Enter your password" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="Email" class="form-label">Email:</label>
-                                <input type="email" class="form-control" id="Email" name="Email"
-                                    placeholder="Enter your email" required>
-                            </div>
-                            <div class="text-center">
-                                Have an account?
-                                <a asp-action="Login">Login.</a>
-                            </div>
-                            <div class="text-center">
-                                <button class="btn btn-primary" type="submit">Register</button>
-                            </div>
-                        </form>
-
+        </div>
+    </div>
+    
 
 </body>
 

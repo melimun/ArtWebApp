@@ -13,12 +13,15 @@ namespace ArtWebApp.Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int id {get; set;}
-        public int userId {get; set;}        
+        public int userId {get; set;}    
 
+        [Required(ErrorMessage = "Please enter commission name")]
         public string name {get; set;}
 
+        [Required(ErrorMessage = "Please enter price")]
         public int price {get; set;}
 
+        [Required(ErrorMessage = "Please enter description")]
         public String description {get; set;}
 
     }
