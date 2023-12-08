@@ -1,0 +1,52 @@
+@model ArtWebApp.Models.CommissionViewModel
+@{
+    Layout = "_Layout";
+}
+@* Matthew Goehner *@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ordered Commissions</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+    <div class="container mt-5">
+        <div class="card-body">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Commission Name</th>
+                        <th>Price</th>
+                        <th>Status</th>
+                        <th>Notes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var orderedCommission in Model.orderedCommissions)
+                    {
+                        if(Model.userId == orderedCommission.buyerId){
+                        var commission = Model.commissions.FirstOrDefault(c => c.id == orderedCommission.itemId);
+
+                        <tr>
+                            <td>@commission.name</td>
+                            <td>@commission.price</td>
+                            <td>@orderedCommission.notes</td>
+                            <td>@orderedCommission.status</td>
+                        </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
