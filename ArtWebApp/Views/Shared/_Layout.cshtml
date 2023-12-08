@@ -7,21 +7,30 @@
     <title>@ViewData["Title"] - ArtWebApp</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+<style>
+    footer {
+    background-color: white; /* Set the background color to white */
+    padding: 20px 0; /* Add padding for space around the content */
+    text-align: center; /* Align the text to the center */
+    position: fixed; /* Fixed position for the footer */
+    bottom: 0; /* Place the footer at the bottom of the viewport */
+    width: 100%; /* Full width */
+    z-index: 1000; /* Ensure it appears above other elements */
+}
+</style>
+
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">ArtWebApp</a>
+                <a class="navTitle navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">ArtWebApp</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
                         <li class ="nav-item">
                             @* Fix this to only show if user is authenticated *@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Marketplace">Marketplace</a>
@@ -42,8 +51,16 @@
                             @* Fix this to only show if user is authenticated *@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="OrderedCommissions">Ordered Commissions</a>
                         </li>
-
+                         @* <li class="nav-item ml-auto">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Sign Out</a>
+                        </li> *@
                     </ul>
+                    <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index"><i class="bi bi-box-arrow-right" style="font-size: 3vh;"></i>
+</a>
+                    </li>
+                </ul>
                 </div>
             </div>
         </nav>

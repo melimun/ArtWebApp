@@ -1,18 +1,57 @@
 @model ArtWebApp.Models.Profile
 @{
-  Layout = "_Layout";
+    Layout = "_Layout";
 }
 
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>User Profile</title>
-  <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/index.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
+    <style>
+        body {
+            padding-bottom: 50px;
+        }
+
+        .gradient-custom-2 {
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+
+
+        .footer {
+            margin-top: 50px;
+        }
+
+        .btn {
+            margin: 10px;
+        }
+
+        .about-item-img {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 1;
+            z-index: -5000;
+        }
+
+        .about-item-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: repeat;
+        }
+
+        #userName {
+            color: wheat;
+        }
+    </style>
 
 </head>
 
@@ -25,49 +64,50 @@
                     <div class="card">
 
                         <!-- Header Section -->
-                        <div class="rounded-top text-white d-flex flex-row" style="background-color: #000000; height:200px;">
+                        <div class="rounded-top text-white d-flex flex-row"
+                            style="background-color: #000000; height:200px;">
                             @* <div class="ms-4 mt-5 d-flex flex-column" style="width: 150px;">
-                                <img src="https://via.placeholder.com/150" alt="placeholder image"
-                                    class="img-fluid img-thumbnail mt-4 mb-2" style="width: 150px; z-index: 1"> *@
-<div class="ms-4 mt-5 d-flex flex-column" style="width: 150px;">
-    @if(Model.ProfileImageData != null)
-    {
-        <img src="data:image;base64,@Convert.ToBase64String(Model.ProfileImageData)" alt="Profile Image" class="img-fluid img-thumbnail mt-4 mb-2" style="width: 150px; z-index: 1">
-    }
-    else
-    {
-        <img src="https://via.placeholder.com/150" alt="Default Image" class="img-fluid img-thumbnail mt-4 mb-2" style="width: 150px; z-index: 1">
-    }
+                            <img src="https://via.placeholder.com/150" alt="placeholder image"
+                            class="img-fluid img-thumbnail mt-4 mb-2" style="width: 150px; z-index: 1"> *@
+                            <div class="ms-4 mt-5 d-flex flex-column" style="width: 150px;">
+                                @if (Model.ProfileImageData != null)
+                                {
+                                    <img src="data:image;base64,@Convert.ToBase64String(Model.ProfileImageData)"
+                                        alt="Profile Image" class="img-fluid img-thumbnail mt-4 mb-2"
+                                        style="width: 150px; z-index: 1">
+                                }
+                                else
+                                {
+                                    <img src="https://via.placeholder.com/150" alt="Default Image"
+                                        class="img-fluid img-thumbnail mt-4 mb-2" style="width: 150px; z-index: 1">
+                                }
 
                                 <div class="btn-group">
-    <a href="@Url.Action("EditProfile", "Home", new { userId = Model.UserID })" class="btn btn-outline-dark"
-        data-mdb-ripple-color="success">
-        <i class="bi bi-pencil-square"></i>
-    </a>
-</div>
+                                    <a href="@Url.Action("EditProfile", "Home", new { userId = Model.UserID })"
+                                        class="btn btn-outline-dark" data-mdb-ripple-color="success">
+                                        <i class="bi bi-pencil-square"></i>
+                                    </a>
+                                </div>
 
 
                             </div>
                             <div class="ms-3" style="margin-top: 130px;">
                                 @if (Model.User != null)
-        {
-            <h3>@Model.User.Username</h3>
-            <h6>@Model.PhoneNumber</h6>
-        }
+                                {
+                                    <h3 id="userName">@Model.User.Username</h3>
+                                    <h6 id="phoneNumber">@Model.PhoneNumber</h6>
+                                }
                             </div>
                         </div>
 
-                        <!-- Statistics Section -->
                         <div class="p-4 text-black" style="background-color: #f8f9fa;">
                             <div class="d-flex justify-content-end text-center py-1">
-                                <!-- Display user-specific statistics or details -->
                                 <div class="px-3">
-                                    <p class="mb-1 h5">1000</p>
-                                    <p class="small text-muted mb-0">Listings</p>
+                                    <p class="small text-muted mb-0">School: @Model.School</p>
+                                    <p class="small text-muted mb-0">Birthday: @Model.Birthday </p>
                                 </div>
                             </div>
-                            <div class="small text-muted">School: @Model.School</div> 
-                            <div class="small text-muted">Birthday: @Model.Birthday</div>
+
                         </div>
 
                         <!-- About Section -->
@@ -82,6 +122,11 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="about-item-img">
+                    <img loading="lazy" src="~/images/profile.jpg" alt="about-image" class="img-fluid">
+                </div>
+
             </div>
         </div>
     </section>

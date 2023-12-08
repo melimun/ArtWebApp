@@ -121,27 +121,27 @@ namespace ArtWebApp.Controllers
 
         // Profile
         // Profile
-    // Remove the [Authorize] attribute to allow access without authentication
+        // Remove the [Authorize] attribute to allow access without authentication
         public IActionResult Profile()
         {
-        // Retrieve the user ID from session or cookie
-        int? userId = HttpContext.Session.GetInt32("UserId");
+            // Retrieve the user ID from session or cookie
+            int? userId = HttpContext.Session.GetInt32("UserId");
 
-        if (userId != null)
-        {
-            var userProfile = _context.Profiles
-                .Include(p => p.User)
-                .FirstOrDefault(p => p.UserID == userId);
-
-            if (userProfile != null)
+            if (userId != null)
             {
-                Console.WriteLine($"User Profile: {userProfile.UserID}, {userProfile.Bio}, {userProfile.School}, {userProfile.PhoneNumber}");
+                var userProfile = _context.Profiles
+                    .Include(p => p.User)
+                    .FirstOrDefault(p => p.UserID == userId);
 
-                return View(userProfile); // Pass the userProfile object to the view
+                if (userProfile != null)
+                {
+                    Console.WriteLine($"User Profile: {userProfile.UserID}, {userProfile.Bio}, {userProfile.School}, {userProfile.PhoneNumber}");
+
+                    return View(userProfile); // Pass the userProfile object to the view
+                }
             }
-        }
-        // If the user ID is not found or the profile doesn't exist, handle it accordingly
-        return RedirectToAction("Login");
+            // If the user ID is not found or the profile doesn't exist, handle it accordingly
+            return RedirectToAction("Login");
         }
 
 
@@ -242,8 +242,8 @@ namespace ArtWebApp.Controllers
         public IActionResult CreateCommission(Commission commission)
         {
             if (ModelState.IsValid)
-            {   
-                commission.userId=HttpContext.Session.GetInt32("UserId");
+            {
+                commission.userId = HttpContext.Session.GetInt32("UserId");
                 _cContext.Commissions.Add(commission);
                 _cContext.SaveChanges();
 
@@ -258,10 +258,10 @@ namespace ArtWebApp.Controllers
         [HttpGet]
         public async Task<IActionResult> OrderedCommissions()
         {
-            var commissionViewModel= new CommissionViewModel();
-            commissionViewModel.userId=HttpContext.Session.GetInt32("UserId");
-            commissionViewModel.orderedCommissions=_cContext.OrderedCommissions.ToList();
-            commissionViewModel.commissions=_cContext.Commissions.ToList();
+            var commissionViewModel = new CommissionViewModel();
+            commissionViewModel.userId = HttpContext.Session.GetInt32("UserId");
+            commissionViewModel.orderedCommissions = _cContext.OrderedCommissions.ToList();
+            commissionViewModel.commissions = _cContext.Commissions.ToList();
             Console.WriteLine($"User id: {commissionViewModel.userId}, {commissionViewModel.orderedCommissions.Count}");
 
             return View(commissionViewModel);
@@ -270,10 +270,10 @@ namespace ArtWebApp.Controllers
         [HttpGet]
         public async Task<IActionResult> UserCommissions()
         {
-            var commissionViewModel= new CommissionViewModel();
-            commissionViewModel.userId=HttpContext.Session.GetInt32("UserId");
-            commissionViewModel.orderedCommissions=_cContext.OrderedCommissions.ToList();
-            commissionViewModel.commissions=_cContext.Commissions.ToList();
+            var commissionViewModel = new CommissionViewModel();
+            commissionViewModel.userId = HttpContext.Session.GetInt32("UserId");
+            commissionViewModel.orderedCommissions = _cContext.OrderedCommissions.ToList();
+            commissionViewModel.commissions = _cContext.Commissions.ToList();
             Console.WriteLine($"User id: {commissionViewModel.userId}, {commissionViewModel.orderedCommissions.Count}");
 
             return View(commissionViewModel);
@@ -294,5 +294,5 @@ namespace ArtWebApp.Controllers
         }
 
     }
-    
+
 }

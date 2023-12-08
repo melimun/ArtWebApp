@@ -10,8 +10,37 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/index.css" asp-append-version="true" />
     <title>Register</title>
+
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        .btn {
+            margin: 10px;
+        }
+
+        .about-item-img {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 1;
+            z-index: -5000;
+        }
+
+        .about-item-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
 </head>
 
 <body>
@@ -37,9 +66,9 @@
 
                             <!-- Profile Image -->
                             <div class="mb-3">
-        <label for="ProfileImage" class="form-label">Profile Image:</label>
-        <input type="file" class="form-control" id="ProfileImage" name="ProfileImage">
-    </div>
+                                <label for="ProfileImage" class="form-label">Profile Image:</label>
+                                <input type="file" class="form-control" id="ProfileImage" name="ProfileImage">
+                            </div>
 
 
                             <!-- Bio -->
@@ -72,19 +101,27 @@
                             <div class="text-center">
                                 @* <a asp-action="Profile">Save Changes.</a> *@
 
-@using (Html.BeginForm("EditProfile", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
-{
-    @Html.HiddenFor(model => model.UserID) <!-- Add this hidden field for userId -->
-    <!-- Other input fields for profile editing -->
+                                @using (Html.BeginForm("EditProfile", "Home", FormMethod.Post, new
+                                {
+                                    enctype =
+                                "multipart/form-data"
+                                }))
+                                {
+                                    @Html.HiddenFor(model => model.UserID) <!-- Add this hidden field for userId -->
+                                    <!-- Other input fields for profile editing -->
 
-                                <button class="btn btn-primary" type="submit">Save Changes</button>
-}
+                                    <button class="btn btn-primary" type="submit">Save Changes</button>
+                                }
 
                                 <a asp-action="Profile" class="btn btn-secondary">Cancel</a>
                             </div>
                         </form>
                     </div>
                 </div>
+            </div>
+
+            <div class="about-item-img">
+                <img loading="lazy" src="~/images/edit.jpg" alt="about-image" class="img-fluid">
             </div>
         </div>
     </div>
