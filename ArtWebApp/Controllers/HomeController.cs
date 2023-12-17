@@ -15,10 +15,12 @@ namespace ArtWebApp.Controllers
     {
         private readonly ArtContext _context;
         private readonly CommissionContext _cContext;
+        //private readonly ItemContext _iContext;
         public HomeController(CommissionContext cContext, ArtContext context)
         {
             _context = context;
             _cContext = cContext;
+           // _iContext = iContext;
         }
 
         // Main Home Page
@@ -221,7 +223,7 @@ namespace ArtWebApp.Controllers
             }
         }
 
-
+        [HttpGet]
         public ViewResult AddItem()
         {
             return View();

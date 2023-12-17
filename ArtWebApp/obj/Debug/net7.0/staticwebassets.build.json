@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PxfqikPorI3Jt2IzfBgNC1XOdQgDZy17w1+dFC4pyeo=",
+  "Hash": "mQYfuyD/KS/gA142TSbHhJPIQE+sfwApSu+YwcTsp6A=",
   "Source": "ArtWebApp",
   "BasePath": "_content/ArtWebApp",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "ArtWebApp/wwwroot",
       "Source": "ArtWebApp",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/obj/Debug/net7.0/scopedcss/bundle/ArtWebApp.styles.css",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/obj/Debug/net7.0/scopedcss/bundle/ArtWebApp.styles.css",
       "SourceId": "ArtWebApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/obj/Debug/net7.0/scopedcss/bundle/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/obj/Debug/net7.0/scopedcss/bundle/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "ArtWebApp.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/obj/Debug/net7.0/scopedcss/bundle/ArtWebApp.styles.css"
+      "OriginalItemSpec": "/Users/christian/ArtWebApp-1/ArtWebApp/obj/Debug/net7.0/scopedcss/bundle/ArtWebApp.styles.css"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/obj/Debug/net7.0/scopedcss/projectbundle/ArtWebApp.bundle.scp.css",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/obj/Debug/net7.0/scopedcss/projectbundle/ArtWebApp.bundle.scp.css",
       "SourceId": "ArtWebApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/obj/Debug/net7.0/scopedcss/projectbundle/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/obj/Debug/net7.0/scopedcss/projectbundle/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "ArtWebApp.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/obj/Debug/net7.0/scopedcss/projectbundle/ArtWebApp.bundle.scp.css"
+      "OriginalItemSpec": "/Users/christian/ArtWebApp-1/ArtWebApp/obj/Debug/net7.0/scopedcss/projectbundle/ArtWebApp.bundle.scp.css"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/css/index.css",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/css/index.css",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "css/index.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot/css/index.css"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/css/site.css",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/css/site.css",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot/css/site.css"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/favicon.ico",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/favicon.ico",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -102,10 +102,27 @@
       "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/images/index.jpg",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/images/edit.jpg",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
+      "BasePath": "_content/ArtWebApp",
+      "RelativePath": "images/edit.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/edit.jpg"
+    },
+    {
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/images/index.jpg",
+      "SourceId": "ArtWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "images/index.jpg",
       "AssetKind": "All",
@@ -119,10 +136,44 @@
       "OriginalItemSpec": "wwwroot/images/index.jpg"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/js/site.js",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/images/login.jpg",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
+      "BasePath": "_content/ArtWebApp",
+      "RelativePath": "images/login.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/login.jpg"
+    },
+    {
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/images/profile.jpg",
+      "SourceId": "ArtWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
+      "BasePath": "_content/ArtWebApp",
+      "RelativePath": "images/profile.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/profile.jpg"
+    },
+    {
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/js/site.js",
+      "SourceId": "ArtWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -136,10 +187,10 @@
       "OriginalItemSpec": "wwwroot/js/site.js"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -153,10 +204,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -170,10 +221,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -187,10 +238,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -204,10 +255,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -221,10 +272,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -238,10 +289,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -255,10 +306,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -272,10 +323,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -289,10 +340,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -306,10 +357,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -323,10 +374,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -340,10 +391,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -357,10 +408,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -374,10 +425,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -391,10 +442,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -408,10 +459,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -425,10 +476,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -442,10 +493,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -459,10 +510,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -476,10 +527,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -493,10 +544,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -510,10 +561,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -527,10 +578,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -544,10 +595,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -561,10 +612,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -578,10 +629,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -595,10 +646,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -612,10 +663,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -629,10 +680,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -646,10 +697,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -663,10 +714,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -680,10 +731,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -697,10 +748,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -714,10 +765,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -731,10 +782,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -748,10 +799,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -765,10 +816,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -782,10 +833,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -799,10 +850,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -816,10 +867,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -833,10 +884,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -850,10 +901,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -867,10 +918,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -884,10 +935,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/bootstrap/LICENSE",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/bootstrap/LICENSE",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -901,10 +952,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/LICENSE"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -918,10 +969,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -935,10 +986,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -952,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/jquery-validation/dist/additional-methods.js",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -969,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -986,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1003,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1020,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/jquery-validation/LICENSE.md",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/jquery-validation/LICENSE.md",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1037,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/LICENSE.md"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/jquery/dist/jquery.js",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/jquery/dist/jquery.js",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1054,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.js"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/jquery/dist/jquery.min.js",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/jquery/dist/jquery.min.js",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1071,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.js"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/jquery/dist/jquery.min.map",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/jquery/dist/jquery.min.map",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1088,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.map"
     },
     {
-      "Identity": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/lib/jquery/LICENSE.txt",
+      "Identity": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/lib/jquery/LICENSE.txt",
       "SourceId": "ArtWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eli/Desktop/Mobile Computing/Year 3/Enterprise/Main Project/Repository/ArtWebApp/wwwroot/",
+      "ContentRoot": "/Users/christian/ArtWebApp-1/ArtWebApp/wwwroot/",
       "BasePath": "_content/ArtWebApp",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",

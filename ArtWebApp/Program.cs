@@ -19,6 +19,7 @@ builder.Services.AddEntityFrameworkSqlite().AddDbContext<CommissionContext>();
 // database
 string connString = builder.Configuration.GetConnectionString("ArtContext");
 string connString2 = builder.Configuration.GetConnectionString("CommissionContext");
+string connString3 = builder.Configuration.GetConnectionString("ItemContext");
 
 builder.Services.AddSession(); // Add session support
 builder.Services.AddControllersWithViews(); // Add MVC services

@@ -69,6 +69,30 @@ namespace ArtWebApp.Migrations
 
                     b.ToTable("orderedCommissions", (string)null);
                 });
+                modelBuilder.Entity("ArtWebApp.Models.Item", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("description")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("name")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("price")
+                        .HasColumnType("DOUBLE");
+
+                    b.Property<int>("price")
+                        .HasColumnType("DOUBLE");
+
+                    b.HasKey("id");
+
+                    b.ToTable("Items", (string)null);
+                });
 #pragma warning restore 612, 618
         }
     }
